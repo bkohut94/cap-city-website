@@ -148,9 +148,22 @@ p:last-child { margin-bottom: 0; }
   justify-content: space-between;
 }
 
+.nav__logo {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
 .nav__logo img {
   height: 34px;
   width: auto;
+}
+
+.nav__logo-name {
+  font-size: 1rem;
+  font-weight: 700;
+  color: var(--dark);
+  white-space: nowrap;
 }
 
 .nav__menu {
